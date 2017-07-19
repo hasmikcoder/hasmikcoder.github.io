@@ -10,12 +10,25 @@ body {
 }
 
 .content {
-  background-color: #030303;
-  color: #eeeeee;
+  background-color: #ADD8E6 ;
+  color: #030303;
   display: flex;
   padding: 15px;
 }
 
 p {
   margin: 0 15px;
+  font-weight: bold;
+  color: #030303;
+  align-items: center;
+  display: flex;
+  line-height: 35px;
 }
+
+.bio {
+  margin: 0 3%;
+  flex-direction: column;
+}
+
+
+ 
