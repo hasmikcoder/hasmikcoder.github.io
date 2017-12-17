@@ -3,10 +3,12 @@ body {
   color: #030303;
   margin: 0;
   padding: 0;
+  flex-direction: column;
 }
 
 .header {
-  padding: 15px;
+  padding top: 13px;
+  padding-left: 15px;
 }
 
 .content {
@@ -14,21 +16,18 @@ body {
   color: #030303;
   display: flex;
   padding: 15px;
-}
+  }
 
 p {
   margin: 0 15px;
-  font-weight: bold;
+  font-weight: normal;
   color: #030303;
   align-items: center;
   display: flex;
-  line-height: 35px;
 }
 
 .bio {
   margin: 0 3%;
-  flex-direction: column;
+  font-size: 17px;
+  line-height: 21px;
 }
-
-
- 
